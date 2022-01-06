@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nunito:wght@300&family=Work+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nunito:wght@300&family=Open+Sans:wght@300;400&family=Work+Sans:ital,wght@0,300;1,300&display=swap");
 
+body {
+  background-color: rgb(241, 241, 241) !important;
+}
+
 .navbar {
   background-color: rgb(255, 255, 255);
 }
@@ -11,7 +15,8 @@
   font-size: 1.8em;
   font-weight: bold;
   font-family: "Indie Flower", cursive;
-  margin-right: -120px;
+  margin-right: -100px;
+  margin-top: 10px;
 }
 
 .navbar-nav li a {
@@ -29,4 +34,11 @@
 /* ---Body conten--- */
 .page-content {
   background-color: rgb(241, 241, 241);
+}
+
+/* Main image */
+.main-image {
+  display: block;
+  margin: 100px auto 100px auto;
+  width: 100%;
 }
