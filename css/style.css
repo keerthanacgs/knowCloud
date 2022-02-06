@@ -13,12 +13,12 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-.navbar h5 {
+.navbar .know {
   color: rgb(0, 0, 0);
-  font-size: 1.8em;
-  font-weight: bold;
+  font-size: 1.7em;
+  font-weight: 600;
   font-family: "Indie Flower", cursive;
-  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .navbar-nav li a {
