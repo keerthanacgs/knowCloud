@@ -35,10 +35,33 @@ body {
 
 /* ---Body conten--- */
 .bg-img {
-  background-image: url("/asset/bgimage.jpg");
+  background-image: url("/asset/bgimage.png");
   height: 95vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.getstarted {
+  position: absolute;
+  top: 60%;
+  right: 25%;
+  padding: 10px;
+  color: wheat;
+  font-size: 2em;
+  border: 2px white solid;
+}
+
+.writeup {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  color: wheat;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  text-align: justify;
+  font-style: italic;
+  width: 50%;
 }
